@@ -1,0 +1,78 @@
+* {
+    font-family: cursive;
+    font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(#e66465, #9198e5);
+}
+
+h1 {
+    text-align: center;
+    color: white
+}
+
+h2 {
+    text-align: center;
+    color: white
+}
+
+h3 {
+    text-align: center;
+    color: white
+}
+
+h3:hover {
+    color: #0d6efd
+}
+
+.container {
+  background-color: #ffc0cb
+  width: 30rem;
+  border-radius: 60px !important;
+  padding: 10px;
+  height: 620px;
+  text-align: center;
+  margin: 100px  
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+    background: url("heart.png");
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.btn-grad {
+    white-space: nowrap;
+    width: 120px;
+    background: transparent;
+    border-color: transparent;
+    transition: 0.2s;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 20px !important;
+    margin: 40px;
+}
+
